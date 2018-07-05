@@ -1,0 +1,167 @@
+body {
+  margin-left: 20px;
+  margin-right: 25%;
+  margin-top: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+label {
+  display: inline-block;
+  width: 300px;
+}
+
+input {
+  width: 300px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  font-size: 16px;
+  padding: 5px;
+}
+
+h1, h2 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #AAA;
+  font-size: 32px;
+}
+
+h3 {
+  font-weight: normal;
+  color: #AAA;
+  font-size: 24px;
+}
+
+.black {
+  color: black;
+}
+
+#balance {
+  color: black;
+}
+
+.hint {
+  color: #666;
+}
+
+.dropdown {
+  font-size: .7em;
+}
+
+.ui-container {
+  width: 400px;
+  height: 600px;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.issuer-header {
+  font-size: 1.4em;
+}
+
+.ticket-header {
+  font-size: 1.4em;
+}
+
+.event-container {
+  border: 1px dotted lightgray;
+  padding: 10px;
+}
+
+.ticket-container {
+  border: 1px dotted lightgray;
+  padding: 10px;
+}
+
+.event-artist {
+  font-size: 1.2em;
+  font-style: bold;
+}
+
+.ticket-artist {
+  font-size: 1.2em;
+  font-style: bold;
+}
+
+.ticket-startTime {
+  font-size: .9em;
+  font-style: bold;
+}
+
+.ticked-doors {
+  font-size: .9em;
+  font-size: bold;
+}
+
+.event-thumbnail {
+  
+}
+
+.selected-row {
+  border: 5px solid lightblue;
+  padding: 6px;
+}
+
+label {
+display:block;
+position:relative;
+/* adjust if necessary */
+}
+label > span {
+position:absolute;
+left:0;
+}
+label > input {
+width: 300px;
+}
+
+.event-adder {
+width: 100%;
+  
+}
+
+.react-datepicker__input-container {
+  width: 100px;
+}
+
+.react-datepicker__input-container input {
+  width: 100px;
+}
+
+.rc-time-picker {
+  width: 50px;
+}
+.ticket-redeemed {
+  float: right;
+  margin-top: -16px;
+  font-family: bold-italic;
+  font-size: 14px;
+  text-color: gray;
+}
+.ticket-date {
+  float: right;
+}
+
+.ticket-photo img {
+  float: right;
+  width: 250px;
+}
+
+.dropdown {
+  width: 422px;
+}
+
+.patron-label {
+  float: right;
+}
+
+.issuer-label {
+  float: right;
+}
